@@ -1,6 +1,6 @@
 deployment:
  tasks:
- - export DEPLOYPATH=/home/user/public_html/
+ - export DEPLOYPATH=/home/earlygra/public_html/
  - /bin/cp *.html $DEPLOYPATH
  - /bin/cp *.css $DEPLOYPATH
  - /bin/cp CNAME $DEPLOYPATH
