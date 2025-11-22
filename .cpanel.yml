@@ -4,4 +4,5 @@ deployment:
  - /bin/cp *.html $DEPLOYPATH
  - /bin/cp *.css $DEPLOYPATH
  - /bin/cp CNAME $DEPLOYPATH
+ - /bin/cp favicon.ico $DEPLOYPATH
  - /bin/cp -r img $DEPLOYPATH
